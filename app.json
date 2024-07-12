@@ -1,0 +1,40 @@
+{
+    "expo": {
+      "name": "FinancialApp",
+      "slug": "financial-app",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.jpg",
+      "splash": {
+        "image": "./assets/splash.jpg",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      },
+      "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(PRODUCT_NAME) to use your location."
+        }
+      ]
+    ],
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#FFFFFF"
+        }
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      }
+    }
+  }
